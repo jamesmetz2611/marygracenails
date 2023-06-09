@@ -1,0 +1,95 @@
+.headline {
+  background-color:rgb(237, 219, 237);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgb(237, 219, 237) ;
+  padding-right: 5px;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 55px;
+  margin-left: 20px;
+  text-align: left;
+  color: rgb(210, 35, 125);
+  padding: 0px;
+  margin: 1%;
+  text-decoration: none;
+}
+
+.links {
+  font-size: 55px;
+  display: inline-block;
+  text-align: right;
+}
+
+.morebutton {
+  font-size: 50px;
+  padding: 0px;
+  background-color: transparent;
+  border-radius: 0px;
+  border-color: transparent;
+  box-shadow: white;
+  height: 55px;
+  width: 55px;
+  overflow: hidden;
+  background: transparent;
+  margin: 0px;
+  flex-direction:column;
+  text-align: center;
+  float: right;
+  transition: background-color 1s;
+  color: rgb(210, 35, 125);
+  vertical-align: bottom;
+  z-index: 1;
+}
+
+.morebutton:hover {
+  cursor: pointer;
+  display: inline-flex;
+  height: 700px;
+  width: 300px;
+  background: rgb(238, 121, 181);
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.flex-item {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 50px;
+  text-decoration-line: none;
+  color: rgb(234, 177, 235);
+  font-family: 'Montserrat Alternates', sans-serif;
+
+}
+
+.servicesandpricing, .bookanappt, .contactme, .gallery, .about {
+  text-decoration: none;
+  text-decoration-line: none;
+  color: rgb(237, 219, 237);
+  transition: color 1s;
+  margin:auto;
+  height: 20px;
+}
+
+.servicesandpricing:hover, .bookanappt:hover, .contactme:hover, .gallery:hover, .about:hover {
+  color:rgb(210, 35, 125);
+}
+
+.basicservices {
+  font-size: 50px;
+  text-align: center; 
+  font-family: 'Montserrat Alternates', sans-serif;
+  color:rgb(210, 35, 125);
+}
+
+.img {
+  width: 450px; 
+  height: 450px;
+  object-fit: cover; 
+  object-position: center; 
+  margin-left: 15px;
+  margin-bottom: 15px;
+}

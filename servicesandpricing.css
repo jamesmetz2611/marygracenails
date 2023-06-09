@@ -1,0 +1,174 @@
+.headline {
+  background-color:rgb(237, 219, 237);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgb(237, 219, 237) ;
+  padding-right: 5px;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 55px;
+  margin-left: 20px;
+  text-align: left;
+  color: rgb(210, 35, 125);
+  padding: 0px;
+  margin: 1%;
+  text-decoration: none;
+}
+
+.links {
+  font-size: 55px;
+  display: inline-block;
+  text-align: right;
+}
+
+.morebutton {
+  font-size: 50px;
+  padding: 0px;
+  background-color: transparent;
+  border-radius: 0px;
+  border-color: transparent;
+  box-shadow: white;
+  height: 55px;
+  width: 55px;
+  overflow: hidden;
+  background: transparent;
+  margin: 0px;
+  flex-direction:column;
+  text-align: center;
+  float: right;
+  transition: background-color 1s;
+  color: rgb(210, 35, 125);
+  vertical-align: bottom;
+  z-index: 1;
+}
+
+.morebutton:hover {
+  cursor: pointer;
+  display: inline-flex;
+  height: 700px;
+  width: 300px;
+  background: rgb(238, 121, 181);
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.flex-item {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 50px;
+  text-decoration-line: none;
+  color: rgb(234, 177, 235);
+  font-family: 'Montserrat Alternates', sans-serif;
+
+}
+
+.services {
+  margin: auto;
+  width: 1000px;
+  padding-bottom:0%;
+  height: 20px;
+  text-decoration: none;
+}
+
+.servicesandpricing, .bookanappt, .contactme, .gallery, .about {
+  text-decoration: none;
+  text-decoration-line: none;
+  color: rgb(237, 219, 237);
+  transition: color 1s;
+  margin:auto;
+  height: 20px;
+}
+
+.servicesandpricing:hover, .bookanappt:hover, .contactme:hover, .gallery:hover, .about:hover {
+  color:rgb(210, 35, 125);
+}
+
+.basicservices {
+  font-size: 50px;
+  text-align: center; 
+  font-family: 'Montserrat Alternates', sans-serif;
+  color:rgb(210, 35, 125);
+}
+
+.regpedi, .gelpedi, .regmani, .gelmani {
+  display: inline-block;
+  font-size: 30px;
+  color:white;
+  width: 400px;
+  padding-left: 30px;
+  transition: font-size 1s;
+  text-decoration: none; 
+}
+
+.price {
+  display: inline-block;
+  color: white; 
+  font-size: 30px;
+  padding: 0%;
+  margin-left: 450px;
+  transition: font-size 1s;
+  text-decoration: none;
+}
+
+.p1 {
+  background-color:rgb(225, 190, 225);
+  margin-bottom:10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.p2 {
+  background-color:rgb(234, 177, 235);
+  margin-bottom: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+
+}
+.p3 {
+  background-color:rgb(238, 121, 181);
+  margin-bottom: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+
+}
+.p4 {
+  background-color:rgb(218, 96, 159);
+  margin-bottom: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+
+}
+
+.p1:hover, .p2:hover, .p3:hover, .p4:hover {
+  cursor: pointer;
+}
+
+.regpedi:hover, .gelpedi:hover, .regmani:hover, .gelmani:hover, .price:hover {
+  font-size: 35px;
+  cursor: pointer; 
+}
+
+.bringfriend {
+  left: 50%;
+  top: 95%;
+  transform: translate(-50%, -50%);
+  position: fixed; 
+  color:rgb(210, 35, 125);
+  background-color:rgb(237, 219, 237);
+  font-size: 30px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: none;  
+  text-align: center; 
+  width: 1500px;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: font-size 1s, opacity 1s;
+}
+
+.bringfriend:hover {
+  opacity: 0.7;
+  font-size: 35px;
+}
